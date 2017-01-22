@@ -1,0 +1,17 @@
+[package]
+name = "rux_http"
+version = "0.1.0"
+authors = ["ErnestRC <ernest@unstable.build>"]
+
+[dependencies]
+log = "*"
+env_logger = "*"
+error-chain = "*"
+httparse = "*"
+
+[dependencies.rux]
+version = "*"
+# git = "https://github.com/ernestrc/rux.git"
+# rev = "5682864bce706fb002b7bbdb9acae20872dbcc72"
+path = "/home/ernestrc/dev/rux/"
+# path = "/home/ernest/dev/rux/"
